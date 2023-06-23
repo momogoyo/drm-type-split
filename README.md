@@ -1,11 +1,19 @@
-# inka-drm-samples
+# drm-type-split
+이 프로젝트는 DRM 타입별로 플레이어 라이브러리를 분기 처리하는 테스트 저장소입니다.
 
-## Dev
+## 설치 및 실행
+다음과 같이 프로젝트를 설치하고 실행할 수 있습니다:
 
-### 설치 및 실행
-```
+```sh
+# 프로젝트 디렉토리로 이동합니다.
+cd drm-type-split
+
+# 필요한 의존성을 설치합니다.
 pnpm i
-pnpm dev
-```
 
-[DRM 관련 컨플루언스](https://millietown.atlassian.net/wiki/spaces/CLT/pages/2509340708/DRM)
+# 개발 서버를 실행합니다.
+pnpm dev
+
+# 애플리케이션을 빌드합니다.
+pnpm build
+```
