@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>videojs</title>
+    <style>
+      .app {
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+      [class*="dimensions"] {
+        width: auto;
+        height: auto;
+      }
+      video {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <div class="media-container"><video id="video"></video></div>
+
+      <button type="button" id="playAll">전체 재생</button>
+      <button type="button" id="pauseAll">전체 멈춤</button>
+      <br /><br />
+      <button type="button" id="prevChapter">이전 챕터</button>
+      <button type="button" id="nextChapter">다음 챕터</button>
+
+      <div class="media-container"><video id="bgm"></video></div>
+      <div class="media-container"><video id="effect"></video></div>
+      <div class="media-container"><video id="narration"></video></div>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

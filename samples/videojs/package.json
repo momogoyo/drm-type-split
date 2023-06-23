@@ -1,0 +1,19 @@
+{
+  "name": "videojs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.2.3"
+  },
+  "dependencies": {
+    "video.js": "7.17.0",
+    "videojs-contrib-dash": "5.1.1",
+    "videojs-contrib-eme": "3.7.0"
+  }
+}
