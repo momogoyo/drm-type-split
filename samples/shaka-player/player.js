@@ -1,6 +1,6 @@
 import shaka from 'shaka-player'
 
-export const siteId = 'JQ4I'
+export const siteId = ''
 
 export const licenseURI = 'https://license.pallycon.com/ri/licenseManager.do'
 

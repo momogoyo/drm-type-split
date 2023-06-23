@@ -1,4 +1,4 @@
-const sessionId = '20B4A3A5F9F6BA4DD519CEF23E73E2461639E498'
+const sessionId = ''
 
 const camelCased = (items) => {
   return items.map((item) => {
@@ -36,7 +36,7 @@ const request = ({
 
 export const getSeries = () => {
   return request({
-    url: 'https://apis.millie.co.kr/v1/content/audio_program/?type_code=3',
+    url: 'https://apis.co.kr/content/audio_program/?type_code=3',
   })
 }
 
@@ -44,7 +44,7 @@ export const getChapter = (
   chapterId = 18
 ) => {
   return request({
-    url: `https://apis.millie.co.kr/v1/content/audio_program/audio/${chapterId}/`,
+    url: `https://apis.co.kr/content/audio_program/audio/${chapterId}/`,
   })  
 }
 
@@ -52,7 +52,7 @@ export const getTokens = (
   mediaIds = []
 ) => {
   return request({
-    url: 'https://apis.millie.co.kr/v1/inka/token/',
+    url: 'https://apis.co.kr/token/',
     method: 'post',
     headers: {
       'content-type': 'application/json',

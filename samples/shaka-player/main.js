@@ -1,13 +1,12 @@
 import Player from './player'
 
 const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-
-const sessionId = '20B4A3A5F9F6BA4DD519CEF23E73E2461639E498'
+const sessionId = ''
 
 const getMediaResource = (
   resources
 ) => {
-  return fetch('https://qa-apis.millie.co.kr/v1/inka/token/', {
+  return fetch('http://apis.co.kr/token/', {
     method : 'post',
     headers: {
       'content-type': 'application/json',

@@ -1,7 +1,5 @@
-export const siteId = 'JQ4I'
-
+export const siteId = ''
 export const licenseURI = 'https://license.pallycon.com/ri/licenseManager.do'
-
 export const fairplayCertURI = `https://license-global.pallycon.com/ri/fpsKeyManager.do?siteId=${siteId}`
 
 export const checkSupportedDRM = () => {
